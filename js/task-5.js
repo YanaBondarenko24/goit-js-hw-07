@@ -1,10 +1,8 @@
 
 const bodyEl = document.querySelector('body');
-const container = document.querySelector('.widget');
 const btn = document.querySelector('.change-color');
 const randomColor = document.querySelector('.color');
 
-console.log(bodyEl);
 
 
 
