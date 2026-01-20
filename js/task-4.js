@@ -9,7 +9,7 @@ const handler = (event) => {
     const inputPassword = elements.password.value;
    
     
-    if (inputEmail === "" || inputPassword === "") {
+    if (inputEmail.trim() === "" || inputPassword.trim() === "") {
       return  alert('All form fields must be filled in');
     }
     const userData = {

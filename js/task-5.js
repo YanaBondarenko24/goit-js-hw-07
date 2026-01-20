@@ -1,7 +1,10 @@
+
+const bodyEl = document.querySelector('body');
 const container = document.querySelector('.widget');
 const btn = document.querySelector('.change-color');
 const randomColor = document.querySelector('.color');
 
+console.log(bodyEl);
 
 
 
@@ -16,8 +19,8 @@ function getRandomHexColor() {
   
   
   const handler = () => {
-    container.style.backgroundColor =  getRandomHexColor(); 
-    randomColor.textContent = getRandomHexColor();
+    bodyEl.style.backgroundColor =  randomColor.textContent = getRandomHexColor(); 
+    
 
   }
   btn.addEventListener("click", handler);
